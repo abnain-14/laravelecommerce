@@ -27,7 +27,7 @@
                             </fieldset>
                             <fieldset class="wrap-input">
                                 <label for="frm-reg-email">Email Address*</label>
-                                <input type="email" id="frm-reg-email" name="reg-email" placeholder="Email address" :value="email" required>
+                                <input type="email" id="frm-reg-email" name="email" placeholder="Email address" :value="email" required>
                             </fieldset>
                             <fieldset class="wrap-title">
                                 <h3 class="form-title">Login Information</h3>
