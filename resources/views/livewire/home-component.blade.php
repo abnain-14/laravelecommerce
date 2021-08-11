@@ -7,10 +7,10 @@
 					<div class="item-slide">
 						<img src="{{ asset('assets/images/main-slider-1-1.jpg') }}" alt="" class="img-slide">
 						<div class="slide-info slide-1">
-							<h2 class="f-title">Kid Smart <b>Watches</b></h2>
-							<span class="subtitle">Compra todos tus productos Smart por internet.</span>
-							<p class="sale-info">Only price: <span class="price">$59.99</span></p>
-							<a href="#" class="btn-link">Shop Now</a>
+							<h2 class="f-title">Commodity <b>Hub</b></h2>
+							<span class="subtitle">Shop Online at a cheap price</span>
+							<p class="sale-info">Maximum price: <span class="price">Tsh.500,000/=</span></p>
+							<a href="/shop" class="btn-link">Shop Now</a>
 						</div>
 					</div>
 					<div class="item-slide">
