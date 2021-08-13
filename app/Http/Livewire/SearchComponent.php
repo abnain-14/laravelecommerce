@@ -37,18 +37,18 @@ class SearchComponent extends Component
     {
         if($this->sorting=='date')
         {
-            $products = Product::where('name','like','%'.$this->search .'%')->where('category_id',$this->product_cat_id)->orderBy('created_at','DESC')->paginate($this->pagesize);
+            $products = Product::where('name','like','%'.$this->search .'%')->where('category_id','like','%'.$this->product_cat_id.'%')->orderBy('created_at','DESC')->paginate($this->pagesize);
         }
         else if($this->sorting=="price")
         {
-            $products = Product::where('name','like','%'.$this->search .'%')->where('category_id',$this->product_cat_id)->orderBy('regular_price','ASC')->paginate($this->pagesize);
+            $products = Product::where('name','like','%'.$this->search .'%')->where('category_id','like','%'.$this->product_cat_id.'%')->orderBy('regular_price','ASC')->paginate($this->pagesize);
         }
         else if($this->sorting=="price-desc")
         {
-            $products = Product::where('name','like','%'.$this->search .'%')->where('category_id',$this->product_cat_id)->orderBy('regular_price','DESC')->paginate($this->pagesize);
+            $products = Product::where('name','like','%'.$this->search .'%')->where('category_id','like','%'.$this->product_cat_id.'%')->orderBy('regular_price','DESC')->paginate($this->pagesize);
         }
         else{
-            $products = Product::where('name','like','%'.$this->search .'%')->where('category_id',$this->product_cat_id)->paginate($this->pagesize);
+            $products = Product::where('name','like','%'.$this->search .'%')->where('category_id','like','%'.$this->product_cat_id.'%')->paginate($this->pagesize);
         }
 
         $categories = Category::all();
