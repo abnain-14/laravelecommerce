@@ -43,8 +43,7 @@ class AdminEditProductComponent extends Component
         $this->quantity = $product->quantity;
         $this->image = $product->image;
         $this->category_id = $product->category_id;
-        $this->newimage = $product->newimage;
-        $this->product_id = $product->product_id;
+        $this->product_id = $product->id;
     }
 
     public function generateSlug()
