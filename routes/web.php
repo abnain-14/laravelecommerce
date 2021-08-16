@@ -16,6 +16,9 @@ use App\Http\Livewire\admin\AdminEditCategoryComponent;
 use App\Http\Livewire\admin\AdminProductComponent;
 use App\Http\Livewire\admin\AdminAddProductComponent;
 use App\Http\Livewire\admin\AdminEditProductComponent;
+use App\Http\Livewire\admin\AdminHomeSliderComponent;
+use App\Http\Livewire\admin\AdminAddHomeSliderComponent;
+use App\Http\Livewire\admin\AdminEditHomeSliderComponent;
 
 /*
 |--------------------------------------------------------------------------
