@@ -70,6 +70,9 @@
 													<a title="Sale Setting" href="{{route('admin.sale')}}">Sale Setting</a>
 												</li>
 												<li class="menu-item">
+													<a title="All Coupon" href="{{route('admin.coupons')}}">All Coupon</a>
+												</li>
+												<li class="menu-item">
 													<a title="Manage Home Categories" href="{{route('admin.homecategories')}}">Manage Home Categories</a>
 												</li>
 												<li class="menu-item">
