@@ -138,7 +138,7 @@
 
 				<div class="nav-section header-sticky">
 					<div class="header-nav-section">
-						<div class="container">
+						<!--<div class="container">
 							<ul class="nav menu-nav clone-main-menu" id="mercado_haead_menu" data-menuname="Sale Info" >
 								<li class="menu-item"><a href="#" class="link-term">Weekly Featured</a><span class="nav-label hot-label">hot</span></li>
 								<li class="menu-item"><a href="#" class="link-term">Hot Sale items</a><span class="nav-label hot-label">hot</span></li>
@@ -146,7 +146,7 @@
 								<li class="menu-item"><a href="#" class="link-term">Top Selling</a><span class="nav-label hot-label">hot</span></li>
 								<li class="menu-item"><a href="#" class="link-term">Top rated items</a><span class="nav-label hot-label">hot</span></li>
 							</ul>
-						</div>
+						</div>-->
 					</div>
 
 					<div class="primary-nav-section">
@@ -260,12 +260,12 @@
 								<div class="item-content">
 									<div class="wrap-hotline-footer">
 										<span class="desc">Call Us toll Free</span>
-										<b class="phone-number">(+123) 456 789 - (+123) 666 888</b>
+										<b class="phone-number">+255 712 345 678</b>
 									</div>
 								</div>
 							</div>
 
-							<div class="wrap-footer-item footer-item-second">
+							<!--<div class="wrap-footer-item footer-item-second">
 								<h3 class="item-header">Sign up for newsletter</h3>
 								<div class="item-content">
 									<div class="wrap-newletter-footer">
@@ -275,12 +275,13 @@
 										</form>
 									</div>
 								</div>
-							</div>
+							</div>-->
 
 						</div>
 
 						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12 box-twin-content ">
 							<div class="row">
+								
 								<div class="wrap-footer-item twin-item">
 									<h3 class="item-header">My Account</h3>
 									<div class="item-content">
@@ -318,18 +319,19 @@
 
 						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
 							<div class="wrap-footer-item">
+								<!--
 								<h3 class="item-header">We Using Safe Payments:</h3>
 								<div class="item-content">
 									<div class="wrap-list-item wrap-gallery">
 										<img src="assets/images/payment.png" style="max-width: 260px;">
 									</div>
-								</div>
+								</div>-->
 							</div>
 						</div>
 
 						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
 							<div class="wrap-footer-item">
-								<h3 class="item-header">Social network</h3>
+								<!--<h3 class="item-header">Social network</h3>
 								<div class="item-content">
 									<div class="wrap-list-item social-network">
 										<ul>
@@ -340,12 +342,13 @@
 											<li><a href="#" class="link-to-item" title="vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>
-								</div>
+								</div>-->
 							</div>
 						</div>
 
 						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
 							<div class="wrap-footer-item">
+								<!--
 								<h3 class="item-header">Dowload App</h3>
 								<div class="item-content">
 									<div class="wrap-list-item apps-list">
@@ -354,13 +357,13 @@
 											<li><a href="#" class="link-to-item" title="our application on google play store"><figure><img src="assets/images/brands/google-play-store.png" alt="google play store" width="128" height="36"></figure></a></li>
 										</ul>
 									</div>
-								</div>
+								</div>-->
 							</div>
 						</div>
 
 					</div>
 				</div>
-
+<!--
 				<div class="wrap-back-link">
 					<div class="container">
 						<div class="back-link-box">
@@ -409,7 +412,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div>-->
 
 			</div>
 
@@ -418,7 +421,7 @@
 					<div class="coppy-right-item item-left">
 						<p class="coppy-right-text">Copyright © 2020 Surfside Media. All rights reserved</p>
 					</div>
-					<div class="coppy-right-item item-right">
+					<!--<div class="coppy-right-item item-right">
 						<div class="wrap-nav horizontal-nav">
 							<ul>
 								<li class="menu-item"><a href="about-us.html" class="link-term">About us</a></li>								
@@ -427,7 +430,7 @@
 								<li class="menu-item"><a href="return-policy.html" class="link-term">Return Policy</a></li>								
 							</ul>
 						</div>
-					</div>
+					</div>-->
 					<div class="clearfix"></div>
 				</div>
 			</div>
