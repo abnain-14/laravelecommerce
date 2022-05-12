@@ -34,7 +34,16 @@ cp .env.example .env
 ```
 php artisan key:generate
 ```
-7. Run the project
+7. Create an empty database for our application; in our case the db name is "laravelecommerce"
+
+8. In the .env file, add database information to allow Laravel to connect to the database
+In the .env file fill in the DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, and DB_PASSWORD options to match the credentials of the database you just created.
+
+9. Migrate the database
+```
+php artisan migrate
+```
+10. Run the project
 ```
 php artisan serve
 ```
