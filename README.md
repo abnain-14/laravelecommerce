@@ -7,7 +7,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 Its just UI
+
 ## How to Setup a Laravel Project You Cloned from Github.com
+
 1. Clone GitHub repo for this project locally
 ```
 git clone https://github.com/abnain-14/laravelecommerce
