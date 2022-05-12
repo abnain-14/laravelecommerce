@@ -47,3 +47,5 @@ php artisan migrate
 ```
 php artisan serve
 ```
+## Reference : 
+https://devmarketer.io/learn/setup-laravel-project-cloned-github-com/
