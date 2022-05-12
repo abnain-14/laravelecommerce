@@ -90,5 +90,5 @@ Route::middleware(['auth:sanctum','verified','authadmin'])->group(function(){
     Route::get('/admin/coupon/edit/{coupon_id}',AdminEditCouponComponent::class)->name('admin.editcoupon');
 
 });
-
+ 
  
