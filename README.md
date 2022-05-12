@@ -6,9 +6,33 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-
+Its just UI
 ## How to Setup a Laravel Project You Cloned from Github.com
-
-Refer: https://devmarketer.io/learn/setup-laravel-project-cloned-github-com/
-
-Its just the UI tho.
+1. Clone GitHub repo for this project locally
+```
+git clone https://github.com/abnain-14/laravelecommerce
+```
+2. cd into your project
+```
+cd laravelecommerce
+```
+3. Install Composer Dependencies
+```
+composer install
+```
+4. Install NPM Dependencies
+```
+npm install
+```
+5. Create a copy of your .env file
+```
+cp .env.example .env
+```
+6. Generate an app encryption key
+```
+php artisan key:generate
+```
+7. Run the project
+```
+php artisan serve
+```
